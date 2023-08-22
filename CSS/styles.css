@@ -85,6 +85,12 @@ section {
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
+
+.nav-link:focus,
+.contac-link:focus {
+  color: var(--main--primary-color);
+}
+
 .nav-link:hover {
   color: var(--main--primary-color);
 }
@@ -275,6 +281,10 @@ section {
   color: var(--main-color--secondfont);
   margin: 0;
 }
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--main--primary-color);
+}
 
 .footer-list {
   width: 231px;
@@ -307,6 +317,7 @@ section {
   background: rgba(245, 244, 250, 1);
 }
 .button-nav:hover {
+  border-color: transparent;
   background-color: var(--main--primary-color);
   color: var(--main--color--whith);
   font-weight: 500;
@@ -315,6 +326,7 @@ section {
   letter-spacing: 0.03em;
 }
 .button-nav:focus {
+  border-color: transparent;
   background-color: var(--main--primary-color);
   color: var(--main--color--whith);
   font-weight: 500;
