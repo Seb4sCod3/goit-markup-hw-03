@@ -94,7 +94,9 @@ section {
 .nav-link:hover {
   color: var(--main--primary-color);
 }
-
+.active-current {
+  color: var(--main--primary-color);
+}
 .contac-list {
   display: flex;
   gap: 50px;
