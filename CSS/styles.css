@@ -111,9 +111,6 @@ section {
   letter-spacing: 0.02em;
   padding: 32px 0px 32px 0px;
 }
-.contac-link :current {
-  color: var(--main--primary-color);
-}
 
 /* MAIN HERO SECTION */
 
@@ -269,12 +266,16 @@ section {
   margin: 0;
 }
 .footer-addres {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main--color--whith);
 }
 .footer-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
